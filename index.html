@@ -38,8 +38,8 @@
             <div class="row slider-text align-items-center text-center justify-content-center"
               data-scrollax-parent="true">
               <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                <p><a href="#" class="scroll">Hello! I'M</a></p>
-                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ragie Doromal</h1>
+                <p ><a href="#" class="scroll" style="text-transform: none !important;">Hi!</a></p>
+                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">I'M RAGIE DOROMAL</h1>
               </div>
             </div>
           </div>
@@ -63,21 +63,21 @@
       <section class="ftco-section about-section">
         <div class="container">
           <div class="row d-flex" data-scrollax-parent="true">
-            <div class="col-md-4 author-img" style="background-image: url(images/me2.jpg);border-radius:16px"
-              data-scrollax=" properties: { translateY: '-70%'}"></div>
+            <div class="col-md-4 author-img" style="background-image: url(images/me2.jpg);border-radius:16px;height: 400px !important;width: 400px !important;"
+              data-scrollax="properties: { translateY: '-70%'}"></div>
             <div class="col-md-2"></div>
             <div class="col-md-6 wrap ftco-animate">
               <div class="about-desc">
                 <h1 class="bold-text">About</h1>
                 <div class="p-5">
-                  <h2 class="mb-5">Ragie Doromal</h2>
-                  <p>I am a Software Engineer with <b id="year_exp"></b> year(s) professional experience in web
-                    development and web design. <br> A fast learner and always willing to learn new technologies.<a
-                      href="files/MY_RESUME.pdf" target="_blank"> Download Resume Below.</a></p>
+                  <h2 class="mb-5"></h2>
+                  <p class="text-justify">A Software Engineer with <strong>1</strong> year professional experience in Web
+                    Development. Proven skilled at both independent and collaborative projects, with an emphasis on Fullstack and Frontend development. <br> A fast learner and always willing to learn new technologies.<a
+                      href="files/MY_RESUME.pdf" target="_blank"> Download My Resume Below.</a></p>
                   <ul class="ftco-footer-social list-unstyled mt-4">
                     <li><a href="https://github.com/appledrft2"><span class="icon-github"></span></a></li>
                     <li><a href="https://wwww.facebook.com/rajie06"><span class="icon-facebook"></span></a></li>
-                    <li><a href="mailto:ragiedoromal06@gmail.com"><span class="icon-envelope"></span></a></li>
+                    <li><a href="mailto:ragiedoromal06@gmail.com"><span class="icon-google"></span></a></li>
                     <li><a href="files/MY_RESUME.pdf" download target="_blank"><span class="icon-download"></span></a>
                     </li>
                   </ul>
@@ -105,7 +105,8 @@
                   <h3 class="heading">CSS</h3>
                   <h3 class="heading">JAVASCRIPT</h3>
                   <h3 class="heading">VUEJS</h3>
-                  <!-- <h3 class="heading">REACTJS</h3> -->
+                  <h3 class="heading">REACTJS</h3>
+                  <h3 class="heading">REACT NATIVE</h3>
                 </div>
               </div>
             </div>
@@ -116,7 +117,6 @@
                   <h3 class="heading"><u>Back-End Development</u></h3>
                   <h3 class="heading">PHP</h3>
                   <h3 class="heading">Laravel</h3>
-                  <h3 class="heading">CodeIgniter</h3>
                   <h3 class="heading">NODEJS</h3>
                   <h3 class="heading">EXPRESS</h3>
                 </div>
@@ -462,16 +462,6 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-  <script>
-    function calculateExp(year) {
-      var date_now = new Date();
-      var date_started = new Date(`${year}`);
-      var experience = date_now.getUTCFullYear() - date_started.getUTCFullYear();
-      document.getElementById("year_exp").innerHTML = experience;
-    }
-    calculateExp(2021);
-  </script>
-
 </body>
 
 </html>
